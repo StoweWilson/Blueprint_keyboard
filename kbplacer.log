@@ -1,0 +1,445 @@
+INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
+INFO: kbplacer_plugin_action.py:71: Python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+INFO: kbplacer_plugin_action.py:72: KiCad version: 9.0.5 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.8
+INFO: kbplacer_dialog.py:631: Language: en
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "/Users/stowedanger/Downloads/keyboard-layout (2).json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+DEBUG: key_placer.py:424: Set key 1U distance: 19050000/19050000
+WARNING: key_placer.py:134: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:141: Switches by nets: {}
+DEBUG: key_placer.py:145: Diodes by switch: {'SW1': ['D1'], 'SW42': ['D42'], 'SW43': ['D43'], 'SW44': ['D44'], 'SW45': ['D45'], 'SW46': ['D46'], 'SW47': ['D47'], 'SW48': ['D48'], 'SW49': ['D49'], 'SW50': ['D50'], 'SW51': ['D51'], 'SW52': ['D52'], 'SW53': ['D53'], 'SW54': ['D54'], 'SW41': ['D41'], 'SW29': ['D29'], 'SW30': ['D30'], 'SW31': ['D31'], 'SW32': ['D32'], 'SW33': ['D33'], 'SW34': ['D34'], 'SW35': ['D35'], 'SW36': ['D36'], 'SW37': ['D37'], 'SW38': ['D38'], 'SW39': ['D39'], 'SW40': ['D40'], 'SW65': ['D109', 'D108', 'D107', 'D106', 'D105', 'D104', 'D103', 'D102', 'D101', 'D100', 'D99', 'D98', 'D97', 'D96', 'D95', 'D94', 'D93', 'D92', 'D91', 'D90', 'D89', 'D88', 'D87', 'D86', 'D85', 'D84', 'D83', 'D82', 'D81', 'D80', 'D79', 'D78', 'D77', 'D76', 'D75', 'D74', 'D73', 'D72', 'D71', 'D70', 'D69', 'D68', 'D67', 'D66', 'D65'], 'SW64': ['D64'], 'SW63': ['D63'], 'SW62': ['D62'], 'SW61': ['D61'], 'SW60': ['D60'], 'SW59': ['D59'], 'SW58': ['D58'], 'SW57': ['D57'], 'SW56': ['D56'], 'SW55': ['D55'], 'SW28': ['D28'], 'SW27': ['D27'], 'SW26': ['D26'], 'SW25': ['D25'], 'SW24': ['D24'], 'SW23': ['D23'], 'SW22': ['D22'], 'SW21': ['D21'], 'SW20': ['D20'], 'SW19': ['D19'], 'SW18': ['D18'], 'SW17': ['D17'], 'SW16': ['D16'], 'SW15': ['D15'], 'SW14': ['D14'], 'SW13': ['D13'], 'SW12': ['D12'], 'SW11': ['D11'], 'SW10': ['D10'], 'SW9': ['D9'], 'SW8': ['D8'], 'SW7': ['D7'], 'SW6': ['D6'], 'SW5': ['D5'], 'SW4': ['D4'], 'SW3': ['D3'], 'SW2': ['D2']}
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+INFO: key_placer.py:620: Looking for connection template between SW1 and other elements
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+INFO: key_placer.py:664: Got connection template: Track [(-8075000, 23750000) (-8075000, 4700000)]
+INFO: kle_serial.py:931: User layout: [[{'a': 7, 'w': 1.75}, '', '', '', '', '', '', '', '', '', '', '', '', '', {'w': 1.75}, ''], [{'w': 1.5}, '', '', '', '', '', '', '', '', '', '', '', '', '', {'w': 2}, ''], [{'w': 2}, '', '', '', '', '', '', '', '', '', '', '', '', {'w': 2.5}, ''], [{'w': 2.5}, '', '', '', '', '', '', '', '', '', '', '', '', ''], ['', '', '', {'w': 1.5}, '', {'w': 6}, '', '', '', '', '', '']]
+DEBUG: key_placer.py:724: Layout offset: (21431250, 28575000)
+DEBUG: kle_serial.py:990: Layout with: x_ortholinear_keys=20, y_ortholinear_keys=64, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1015: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (64293750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (83343750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (102393750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (121443750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (140493750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (159543750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (178593750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (197643750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (216693750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (235743750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (254793750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (273843750, 38100000)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (300037500, 38100000)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (35718750, 57150000)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (59531250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (78581250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (97631250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (116681250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW20 footprint position: (135731250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW21 footprint position: (154781250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW22 footprint position: (173831250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW23 footprint position: (192881250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW24 footprint position: (211931250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW25 footprint position: (230981250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW26 footprint position: (250031250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW27 footprint position: (269081250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW28 footprint position: (297656250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW29 footprint position: (40481250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW30 footprint position: (69056250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW31 footprint position: (88106250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW32 footprint position: (107156250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW33 footprint position: (126206250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW34 footprint position: (145256250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW35 footprint position: (164306250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW36 footprint position: (183356250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW37 footprint position: (202406250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW38 footprint position: (221456250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW39 footprint position: (240506250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW40 footprint position: (259556250, 76200000)
+DEBUG: board_modifier.py:94: Setting SW41 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:94: Setting SW42 footprint position: (45243750, 95250000)
+DEBUG: board_modifier.py:94: Setting SW43 footprint position: (78581250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW44 footprint position: (97631250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW45 footprint position: (116681250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW46 footprint position: (135731250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW47 footprint position: (154781250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW48 footprint position: (173831250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW49 footprint position: (192881250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW50 footprint position: (211931250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW51 footprint position: (230981250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW52 footprint position: (250031250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW53 footprint position: (269081250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW54 footprint position: (288131250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW55 footprint position: (30956250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW56 footprint position: (50006250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW57 footprint position: (69056250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW58 footprint position: (92868750, 114300000)
+DEBUG: board_modifier.py:94: Setting SW59 footprint position: (164306250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW60 footprint position: (230981250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW61 footprint position: (250031250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW62 footprint position: (269081250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW63 footprint position: (288131250, 114300000)
+DEBUG: board_modifier.py:94: Setting SW64 footprint position: (307181250, 114300000)
+INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+DEBUG: key_placer.py:854: Placing additional elements for SW65
+DEBUG: board_modifier.py:107: Getting SW65 footprint position: (121337500, 108579500)
+DEBUG: board_modifier.py:84: Searching for optional ST65 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (64293750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW3
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (83343750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW4
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (102393750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW5
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (121443750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW6
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (140493750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW7
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (159543750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW8
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (178593750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW9
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (197643750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW10
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (216693750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW11
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (235743750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW12
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (254793750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW13
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (273843750, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW14
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (300037500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW15
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (35718750, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW16
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (59531250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW17
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (78581250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW18
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (97631250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW19
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (116681250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW20
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (135731250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW21
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (154781250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW22
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (173831250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW23
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (192881250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW24
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (211931250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW25
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (230981250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW26
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (250031250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW27
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (269081250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW28
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (297656250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW29
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (40481250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW30
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (69056250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW31
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (88106250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW32
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (107156250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW33
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (126206250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST33 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW34
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (145256250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST34 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW35
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (164306250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW36
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (183356250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW37
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (202406250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST37 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW38
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (221456250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW39
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (240506250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW40
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (259556250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW41
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST41 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW42
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (45243750, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST42 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW43
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (78581250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST43 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW44
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (97631250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST44 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW45
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (116681250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST45 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW46
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (135731250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST46 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW47
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (154781250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST47 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW48
+DEBUG: board_modifier.py:107: Getting SW48 footprint position: (173831250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST48 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW49
+DEBUG: board_modifier.py:107: Getting SW49 footprint position: (192881250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST49 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW50
+DEBUG: board_modifier.py:107: Getting SW50 footprint position: (211931250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST50 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW51
+DEBUG: board_modifier.py:107: Getting SW51 footprint position: (230981250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST51 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW52
+DEBUG: board_modifier.py:107: Getting SW52 footprint position: (250031250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST52 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW53
+DEBUG: board_modifier.py:107: Getting SW53 footprint position: (269081250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST53 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW54
+DEBUG: board_modifier.py:107: Getting SW54 footprint position: (288131250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST54 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW55
+DEBUG: board_modifier.py:107: Getting SW55 footprint position: (30956250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST55 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW56
+DEBUG: board_modifier.py:107: Getting SW56 footprint position: (50006250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST56 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW57
+DEBUG: board_modifier.py:107: Getting SW57 footprint position: (69056250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST57 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW58
+DEBUG: board_modifier.py:107: Getting SW58 footprint position: (92868750, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST58 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW59
+DEBUG: board_modifier.py:107: Getting SW59 footprint position: (164306250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST59 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW60
+DEBUG: board_modifier.py:107: Getting SW60 footprint position: (230981250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST60 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW61
+DEBUG: board_modifier.py:107: Getting SW61 footprint position: (250031250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST61 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW62
+DEBUG: board_modifier.py:107: Getting SW62 footprint position: (269081250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST62 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW63
+DEBUG: board_modifier.py:107: Getting SW63 footprint position: (288131250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST63 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW64
+DEBUG: board_modifier.py:107: Getting SW64 footprint position: (307181250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST64 footprint in /Users/stowedanger/Downloads/Danger_keyboard/Danger_keyboard.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:520: Removing dangling tracks
+INFO: key_placer.py:532: Removing 7b431d35-a755-43cd-afc1-8d3a9ecbd5c7
+INFO: key_placer.py:532: Removing ae56f2fa-723a-481e-b8ce-1dadf8aa646c
+INFO: key_placer.py:532: Removing 73d420c0-8d57-482a-9c7c-4cf00176847b
+INFO: key_placer.py:532: Removing 614dd6b3-5713-4f15-bff3-37ade1aca511
+INFO: key_placer.py:532: Removing 33b67493-370b-4c02-b7ad-e02c6af607d8
+INFO: key_placer.py:532: Removing 6a0a590c-c681-45e6-8c61-7d7031c3bc0b
+INFO: key_placer.py:532: Removing d3c7cbb2-cc49-4fef-99f3-5d8afa9d2922
+INFO: key_placer.py:532: Removing e58e097f-0fd5-4dee-9791-16bc59ee5c4e
+INFO: key_placer.py:532: Removing 13bc5267-f8cf-4210-9f93-9af79d133e52
+INFO: key_placer.py:532: Removing b76217a2-d668-4c47-a028-967a900dd5e5
+INFO: key_placer.py:532: Removing dd3fdecb-49e8-4465-8109-8dd8cf97ace4
+INFO: key_placer.py:532: Removing 205fad05-ac47-4e48-b993-0b1d308414ee
+INFO: key_placer.py:532: Removing 382bb2b9-6e93-4738-a1ea-00f3ae72fcd9
+INFO: key_placer.py:532: Removing 6524b5c0-3af8-4f9e-a740-5403b8d333fa
+INFO: key_placer.py:532: Removing 6b0f5941-7a81-4afb-86f9-8cd341a52df5
+INFO: key_placer.py:532: Removing 36ca70dc-8d25-4ff6-891c-3f0dceb56972
+INFO: key_placer.py:532: Removing e9b6e1cb-3213-41cb-a63f-42f5e9906058
+INFO: key_placer.py:532: Removing 3b1affda-2933-4394-a3c9-2b2e461a0d77
+INFO: key_placer.py:532: Removing c8a0ebbc-e09c-4634-b352-8f36498e7cff
+INFO: key_placer.py:532: Removing d824fbbe-d639-4c13-b145-3bfbfdc4d66a
+INFO: key_placer.py:532: Removing 03b8fcd6-a0fa-4e7e-988a-c7743e644064
+INFO: key_placer.py:532: Removing 32c66b19-c225-431b-851d-881972dd248c
+INFO: key_placer.py:532: Removing 4310ff19-3d7a-4a2f-9678-3feaa6ad2480
+INFO: key_placer.py:532: Removing 17d91a20-9a97-4fac-bc2f-e8ff1f9fbb32
+INFO: key_placer.py:532: Removing 2c8014e1-3fa6-4a81-92e0-216046714bf7
+INFO: key_placer.py:532: Removing 861096ea-d722-4249-8f5b-f94af064b83d
+INFO: key_placer.py:532: Removing 010c3583-0738-4e88-9c7b-6a9f592f0d89
+INFO: key_placer.py:532: Removing 50d0e847-9279-46e3-a39b-b3e8fb9d1450
+INFO: key_placer.py:532: Removing aa76c800-d0f1-4ccd-ae1a-ceab1ab680e1
+INFO: key_placer.py:532: Removing 05dc604a-b82b-4ebc-b4f5-deff18a955d4
+INFO: key_placer.py:532: Removing 14f4e247-de98-468e-9ebe-d8bb2e330687
+INFO: key_placer.py:532: Removing d8750c9c-06f0-4ddc-ae92-8f19ca5a5843
+INFO: key_placer.py:532: Removing d62c01fa-8650-42a9-9644-69b09411e63e
+INFO: key_placer.py:532: Removing 292a6317-7360-4c53-af99-ff18d7bac914
+INFO: key_placer.py:532: Removing 6ba8c4b4-89a7-48b9-9ef7-eee57f97e7d4
+INFO: key_placer.py:532: Removing 081fa2d4-a731-4746-9c0f-1cdd0e8b86a3
+INFO: key_placer.py:532: Removing 4b0c0607-ae7c-48fb-b733-21825d0d6136
+INFO: key_placer.py:532: Removing 3fad0df2-1de6-4a7d-8a96-36be0d9d79e0
+INFO: key_placer.py:532: Removing c3bea7b8-e7a6-4b73-b26d-b1ba01aec9d0
+INFO: key_placer.py:532: Removing 9712aa79-1aa2-45ce-ba1d-c32babc6b336
+INFO: key_placer.py:532: Removing d76dc280-fb35-480b-a94c-6345b19485bd
+INFO: key_placer.py:532: Removing 82f23f64-8c5d-4993-88cc-638339b00161
+INFO: key_placer.py:532: Removing ecfc57a5-a397-445e-abc6-61a9f0fac0d9
+INFO: key_placer.py:532: Removing b35e2d4e-8713-4a9c-b36b-6424c0770d29
+INFO: key_placer.py:532: Removing e8bdaefd-071a-42b2-9e88-7c56d5029322
+INFO: key_placer.py:532: Removing 04a80a26-32ae-4078-b6e3-db8d76f1d44d
+INFO: key_placer.py:532: Removing 5cdb8447-18a5-4ca1-824e-16d882e59457
+INFO: key_placer.py:532: Removing 33851e99-b5a0-411c-97ac-e90a07630176
+INFO: key_placer.py:532: Removing 61c9efa1-d7ed-4911-a503-3af2db54fa4a
+INFO: key_placer.py:532: Removing 6f0534c9-5400-4208-9785-efd1165a462a
+INFO: key_placer.py:532: Removing ef9d366b-5831-4d3d-90c9-5c9020b76764
+INFO: key_placer.py:532: Removing aa86caee-5be5-4e8c-86ae-f20d6f76b92d
+INFO: key_placer.py:532: Removing aff66d3e-19f1-41da-a7c2-d17e8a7b7e04
+INFO: key_placer.py:532: Removing 19b87042-722d-44ec-8ffd-d1b024c54c37
+INFO: key_placer.py:532: Removing 588c8a63-4088-4ce9-acb0-efe42fb5576a
+INFO: key_placer.py:532: Removing 55dcfc08-7b97-444b-96c1-92293cf5152a
+INFO: key_placer.py:532: Removing cc9cb572-08b4-491e-9e82-268d502f56a9
+INFO: key_placer.py:532: Removing 3b18b8db-7bfc-4db0-a0d9-964ffb184169
+INFO: key_placer.py:532: Removing acb3ecd9-a9f4-4f7f-bcd7-b3d3618b4a64
+INFO: key_placer.py:532: Removing 8455d02f-58e6-49a7-afef-19b7b2ce5cb8
+INFO: key_placer.py:532: Removing b04b674e-3fa2-4e18-9d0a-35f9ad60e6ef
+INFO: key_placer.py:532: Removing b84da7a7-09ff-48d5-8eb8-80364e48dc96
+INFO: key_placer.py:532: Removing 00113b7f-a96a-4ee0-9b09-0e06761818a6
+INFO: key_placer.py:532: Removing 78ae7386-0837-417e-9efa-7958675844ae
+INFO: key_placer.py:532: Removing 1f8b4bbf-9996-43fa-a35d-33f52b101918
+INFO: key_placer.py:532: Removing 657e1aab-e093-4b82-934b-db2bce852681
+INFO: key_placer.py:532: Removing 9be98981-bcdf-4a8d-8e87-6de2f13471f7
+INFO: key_placer.py:532: Removing 7edc356a-5e3c-4aa3-8cbb-db04fb7c714e
+INFO: key_placer.py:532: Removing fe0fd6ce-9557-466c-9d65-f679d36fc950
+INFO: key_placer.py:532: Removing 9ce26972-254b-4bf5-a0fa-de13332a1e7f
+INFO: key_placer.py:520: Removing dangling tracks
+INFO: key_placer.py:532: Removing 34ce6a69-dad4-4e8d-a458-27bb819faf92
+INFO: key_placer.py:532: Removing 9515c00c-89db-4a08-a7e5-a71b884aa7df
+INFO: key_placer.py:532: Removing 393a7f7e-d397-44a9-b451-db0030cfd11a
+INFO: key_placer.py:532: Removing 6826d916-6540-491c-8547-3ffe31c336c2
+INFO: key_placer.py:532: Removing 31bb80f1-2def-4f49-b1c7-9c7d7025b4b7
+INFO: key_placer.py:532: Removing 2ee055d0-5e0f-481b-b75e-e5f3ec6a3541
+INFO: key_placer.py:532: Removing 45ba6473-8bcf-45bf-b6e1-83b44a68500d
+INFO: key_placer.py:532: Removing af12c940-a010-45d4-8d76-e5ea9195833d
+INFO: key_placer.py:532: Removing 531bb230-0785-4966-8d92-e9ad9847d8e2
+INFO: key_placer.py:532: Removing d68a5086-249b-4713-9e69-e3784c37042e
+INFO: key_placer.py:532: Removing d42d35a6-1b60-4297-a62a-5392327ad2fa
+INFO: key_placer.py:532: Removing b28510d2-a3b7-40a4-83a7-5d0b48ea2493
+INFO: key_placer.py:532: Removing 62913d17-6778-422c-ba47-4d5b535af3f4
+INFO: key_placer.py:532: Removing 704a051e-2504-4794-bd6b-e77a1bf7b098
+INFO: key_placer.py:532: Removing 024242a7-feda-4eae-b770-c41ba5e0b9ca
+INFO: key_placer.py:532: Removing 1c71da9b-08a2-49d6-8ae3-d6a180c7548c
+INFO: key_placer.py:532: Removing 1d0d0102-c093-4c79-8525-42b755c5bc43
+INFO: key_placer.py:532: Removing 22bb9190-4a06-438d-8239-e2010c9e2059
+INFO: key_placer.py:532: Removing 20afca1f-7c32-48e3-8df6-cd0c80854ee9
+INFO: key_placer.py:532: Removing fc421db8-1a77-4a77-adf3-c0c0ba067e9a
+INFO: key_placer.py:532: Removing dd7ac454-1b8d-4e79-85cb-70a45c808e83
+INFO: key_placer.py:532: Removing fd1169f3-e0d5-4ca4-be02-fcd9d3af1870
+INFO: key_placer.py:532: Removing 31914ca1-456c-4792-8535-fbdfdda65870
+INFO: key_placer.py:532: Removing 36221cb5-510c-47be-b5dd-cd82b472aeac
+INFO: key_placer.py:532: Removing 8d5227d4-72c0-407c-b98e-48a8636f4dd3
+INFO: key_placer.py:532: Removing 15414ac9-7eb9-4da4-a0f1-01d9b597c641
+INFO: key_placer.py:532: Removing 4516a516-8139-4d01-8057-4b71653b48e0
+INFO: key_placer.py:532: Removing 6d92a0df-ddb5-4d02-8033-bf32fe2f0efe
+INFO: key_placer.py:532: Removing e745c95a-8af8-433f-9f08-402822d20ffa
+INFO: key_placer.py:532: Removing d457cbc7-7ead-4977-bf3e-c90b2fe625ab
+INFO: key_placer.py:520: Removing dangling tracks
