@@ -42,3 +42,5 @@
 - Diodes are **SOD-123**
 - Switches are **low-profile hot-swap**
 - Shipping is not included in any of the prices
+- PCB with shippiing is $59.04 Qty of 5 each cant change
+
