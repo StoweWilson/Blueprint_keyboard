@@ -26,6 +26,7 @@
 
 | Reference | Qty | Value / Part | Footprint | Price | Link | Datasheet |
 |---------|-----|-------------|-----------|-------|------|-----------|
+|PCB||||$16.30|
 | U1 | 1 | XIAO RP2040 SMD | Seeed 102010428 |$4.68|https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010428/14672129?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj-cx_AB7IYmSUrHfcZ3IQLC&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbcn_ZEg4zv6ObEisLv_b6IgijRfvJiZc21Bz6JM8BaIT7ggCM4oFr8aAoSUEALw_wcB| — |
 | U2 | 1 | PCF8575DBR I/O Expander | SSOP-24 |$3.58|https://www.digikey.com/en/products/detail/texas-instruments/PCF8575DBR/754551| https://www.ti.com/lit/ds/symlink/pcf8575.pdf |
 | R1–R4 | 4 | 10 kΩ | 0805 |$.44|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB| — |
@@ -40,3 +41,4 @@
 - All passives are **0805** for easier assembly
 - Diodes are **SOD-123**
 - Switches are **low-profile hot-swap**
+- Shipping is not included in any of the prices
