@@ -16,7 +16,7 @@
 | C4–C7 | 4 | 0.1 µF | 0805 |$.16|https://www.digikey.com/en/products/detail/kemet/C0805C104K5RACTU/411169| — |
 | D1–D64 | 64 | Keyboard Diode | SOD-123 |$2.37|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgypAje0IPavXjgqFPx6XVld&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbevNIc3pz5DCNokEEO_8CvM73vlO7yoCVwzxSf4ZXIzwrOgU6EtQNMaAnAVEALw_wcB| — |
 | SW1–SW64 | 64 | Gateron Low-Profile Hot-Swap Switch | PTH |I can pay|  | — |
-| SW65 | 1 | Reset Button | PTS647 SMD |$.21|https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS18-5-17-SL-160-SMT-TR/16590911?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj-cx_AB7IYmSUrHfcZ3IQLC&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfI-z-H6oBziXrPcqtyQUk9HacCuEkQtOFEPs540QdjCIGjgg51T7QaAr-XEALw_wcB| — |
+| SW65 | 1 | Reset Button | PTS647 SMD |$.41|https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861| — |
 | J2–J5 | 4 | Adafruit 5413 Magnetic Connector | Custom |$6.50|https://www.adafruit.com/product/5358| — |
 
 ---
