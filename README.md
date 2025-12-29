@@ -4,7 +4,7 @@
 
 | Reference | Qty | Value / Part | Footprint | Price Total | Link | Datasheet |
 |---------|-----|-------------|-----------|-------|------|-----------|
-|PCB|||$16.30|
+|PCB||||$16.30|
 | U1 | 1 | ATmega32U4-A | TQFP-44 10×10 mm |$5.29| https://www.microchip.com/en-us/product/atmega32u4 | http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf |
 | Y1 | 1 | 16 MHz Crystal | SMD 3225-4Pin | $.18 | https://www.digikey.com/en/products/detail/eaton-electronics-division/E3X160201Y08/25656418?gclsrc=aw.ds&gad_source=1&gad_campaignid=20509818236&gbraid=0AAAAADrbLlgS94xmC2OHtv7KUQTO5uOa0&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbeNFFstWFqMior3PH_CgvAHFOVgZvViWWTwkzizrjl1ohLOkbDwLqwaAlaHEALw_wcB | — |
 | U2 | 1 | USB6B1 ESD Protector | SOIC-8 |$.69|https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663| http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/ec/b2/54/b2/76/47/90/CD00001361.pdf |
