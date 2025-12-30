@@ -5,14 +5,14 @@
 | Reference | Qty | Value / Part | Footprint | Price Total | Link | Datasheet |
 |---------|-----|-------------|-----------|-------|------|-----------|
 |PCB||||$16.30|
-| U1 | 1 | ATmega32U4-A | TQFP-44 10×10 mm |$5.29| https://www.microchip.com/en-us/product/atmega32u4 | http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf |
+| U1 | 1 | ATmega32U4-A | TQFP-44 10×10 mm |$5.29| https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32U4-AU/1914602 | http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf |
 | Y1 | 1 | 16 MHz Crystal | SMD 3225-4Pin | $.18 | https://www.digikey.com/en/products/detail/eaton-electronics-division/E3X160201Y08/25656418?gclsrc=aw.ds&gad_source=1&gad_campaignid=20509818236&gbraid=0AAAAADrbLlgS94xmC2OHtv7KUQTO5uOa0&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbeNFFstWFqMior3PH_CgvAHFOVgZvViWWTwkzizrjl1ohLOkbDwLqwaAlaHEALw_wcB | — |
 | U2 | 1 | USB6B1 ESD Protector | SOIC-8 |$.69|https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663| http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/ec/b2/54/b2/76/47/90/CD00001361.pdf |
 | J1 | 1 | USB-C Receptacle (USB 2.0) | GCT USB4105 | $.72|  https://www.digikey.com/en/products/detail/amphenol-icc-fci-/10171746-00021LF/24366718?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504594076&gbraid=0AAAAADrbLliKa-isyfEEG1K0mhQ-IdK9f&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfS4QL507NDol1-6Cdh5rUTj5M5hC5s0NrW_j3S6W67Z4K-qavOG4UaAp8YEALw_wcB| https://www.usb.org/sites/default/files/documents/usb_type-c.zip |
 | R1, R4 | 2 | 10 kΩ | 0805 |$.22|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB| — |
 | R2, R3 | 2 | 22 Ω | 0805 |$.22|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1322RL/13694339?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfZP3-md_kWXjVo2urg73f88iKE2tR9Xip3xlEVRXTp1bbZVnmvqCgaAlWkEALw_wcB| — |
 | R5, R6 | 2 | 5.1 kΩ | 0805 |$.20|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338| — |
-| C1, C2 | 2 | 22 pF | 0805 |$.50|https://www.mouser.com/ProductDetail/KEMET/C0805C220J4GACAUTO?qs=MyNHzdoqoQJPr3F6isUymA%3D%3D| — |
+| C1, C2 | 2 | 22 pF | 0805 |$.22|https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055| — |
 | C3 | 1 | 1 µF | 0805 |$.70|https://www.mouser.com/ProductDetail/KYOCERA-AVX/KAF21KR71H105JU?qs=9vOqFld9vZWh8YVe5AsImg%3D%3D| — |
 | C4–C7 | 4 | 0.1 µF | 0805 |$.16|https://www.digikey.com/en/products/detail/kemet/C0805C104K5RACTU/411169| — |
 | D1–D64 | 64 | Keyboard Diode | SOD-123 |$2.37|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgypAje0IPavXjgqFPx6XVld&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbevNIc3pz5DCNokEEO_8CvM73vlO7yoCVwzxSf4ZXIzwrOgU6EtQNMaAnAVEALw_wcB| — |
