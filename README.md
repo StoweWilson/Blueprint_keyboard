@@ -36,7 +36,6 @@
 | SW1–SW21 | 21 | Gateron Low-Profile Hot-Swap Switch | PTH |  |  | — |
 | J1–J4 | 4 | Adafruit 5413 Magnetic Connector | Custom |$6.50|https://www.adafruit.com/product/5358| — |
 |Total||||$32.48|
-
 |Subtotal||||$67.44|
 |Est shipping||||$26 - $40|
 |Altogether||||$97 - $105|
