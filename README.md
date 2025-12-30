@@ -47,19 +47,19 @@
 ## 📸 Project Images
 
 ### Main Keyboard PCB
-![Main Keyboard PCB](images/keyboard_pcb.png)
+![Main Keyboard PCB](images/keyboard_PCB.png)
 
 ### Main Keyboard SCH
-![Main Keyboard PCB](images/keyboard_pcb.png)
+![Main Keyboard SCH](images/keyboard_SCH.png)
 
 ### Keyboard Case
 ![Keyboard Case](images/keyboard_case.png)
 
 ### Keypad PCB
-![Keypad PCB](images/keypad_pcb.png)
+![Keypad PCB](images/keypad_PCB.png)
 
 ### Keypad SCH
-![Keyboard Case](images/keyboard_case.png)
+![Keyboard SCh](images/keyboard_SCH.png)
 
 ### Keypad Case
 ![Keypad Case](images/keypad_case.png)
