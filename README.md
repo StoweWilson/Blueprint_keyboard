@@ -14,7 +14,7 @@
 | R5, R6 | 2 | 5.1 kΩ | 0805 |$.20|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338| — |
 | C1, C2 | 2 | 22 pF | 0805 |$.22|https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055| — |
 | C3 | 1 | 1 µF | 0805 |$.70|https://www.mouser.com/ProductDetail/KYOCERA-AVX/KAF21KR71H105JU?qs=9vOqFld9vZWh8YVe5AsImg%3D%3D| — |
-| C4–C7 | 4 | 0.1 µF | 0805 |$.16|https://www.digikey.com/en/products/detail/kemet/C0805C104K5RACTU/411169| — |
+| C4–C7 | 4 | 0.1 µF | 0805 |$.32|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701| — |
 | D1–D64 | 64 | Keyboard Diode | SOD-123 |$2.37|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgypAje0IPavXjgqFPx6XVld&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbevNIc3pz5DCNokEEO_8CvM73vlO7yoCVwzxSf4ZXIzwrOgU6EtQNMaAnAVEALw_wcB| — |
 | SW1–SW64 | 64 | Gateron Low-Profile Hot-Swap Switch | PTH |I can pay|  | — |
 | SW65 | 1 | Reset Button | PTS647 SMD |$.41|https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861| — |
