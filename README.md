@@ -19,6 +19,7 @@
 | SW1–SW64 | 64 | Gateron Low-Profile Hot-Swap Switch | PTH |I can pay|  | — |
 | SW65 | 1 | Reset Button | PTS647 SMD |$.41|https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861| — |
 | J2–J5 | 4 | Adafruit 5413 Magnetic Connector | Custom |$6.50|https://www.adafruit.com/product/5358| — |
+|Total||||$34.96|
 
 ---
 
@@ -34,8 +35,13 @@
 | D1–D21 | 21 | Keyboard Diode | SOD-123 |$.78|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgypAje0IPavXjgqFPx6XVld&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbevNIc3pz5DCNokEEO_8CvM73vlO7yoCVwzxSf4ZXIzwrOgU6EtQNMaAnAVEALw_wcB| — |
 | SW1–SW21 | 21 | Gateron Low-Profile Hot-Swap Switch | PTH |  |  | — |
 | J1–J4 | 4 | Adafruit 5413 Magnetic Connector | Custom |$6.50|https://www.adafruit.com/product/5358| — |
+|Total||||$32.48|
 
 ---
+### Subtotal (without shipping)
+|Total||||$67.44|
+|Est shipping||||$26 - $40|
+|Altogether||||$97 - $105|
 
 ### Notes
 - All passives are **0805** for easier assembly
@@ -43,4 +49,5 @@
 - Switches are **low-profile hot-swap**
 - Shipping is not included in any of the prices
 - PCB with shippiing is $59.04 Qty of 5 each cant change
+- 
 ---
