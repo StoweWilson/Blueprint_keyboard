@@ -43,4 +43,23 @@
 - Switches are **low-profile hot-swap**
 - Shipping is not included in any of the prices
 - PCB with shippiing is $59.04 Qty of 5 each cant change
+---
+## 📸 Project Images
 
+### Main Keyboard PCB
+![Main Keyboard PCB](images/keyboard_pcb.png)
+
+### Main Keyboard SCH
+![Main Keyboard PCB](images/keyboard_pcb.png)
+
+### Keyboard Case
+![Keyboard Case](images/keyboard_case.png)
+
+### Keypad PCB
+![Keypad PCB](images/keypad_pcb.png)
+
+### Keypad SCH
+![Keyboard Case](images/keyboard_case.png)
+
+### Keypad Case
+![Keypad Case](images/keypad_case.png)
