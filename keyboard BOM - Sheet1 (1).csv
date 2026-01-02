@@ -1,0 +1,15 @@
+Product name,Product desciption,Qty,Product unit price,Product link,Product running total,with Tax
+ATmega32U4-A,AVR AVR® ATmega Microcontroller IC 8-Bit 16MHz 32KB (16K x 16) FLASH 44-TQFP (10x10),1,5.29,https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32U4-AU/1914602,5.29,5.61
+16 MHz Crystal,CRYSTAL 3225 16MHZ 20PF 10PPM,1,0.18,https://www.digikey.com/en/products/detail/eaton-electronics-division/E3X160201Y08/25656418?gclsrc=aw.ds&gad_source=1&gad_campaignid=20509818236&gbraid=0AAAAADrbLlgS94xmC2OHtv7KUQTO5uOa0&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbeNFFstWFqMior3PH_CgvAHFOVgZvViWWTwkzizrjl1ohLOkbDwLqwaAlaHEALw_wcB,0.18,0.19
+USB6B1 ESD Protector,TVS DIODE 5.25VWM 8SOIC,1,0.69,https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663,0.69,0.73
+USB-C Receptacle (USB 2.0),USB C RECEPTACLE R/A SMT 16P G/F,1,0.72,https://www.digikey.com/en/products/detail/amphenol-icc-fci-/10171746-00021LF/24366718?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504594076&gbraid=0AAAAADrbLliKa-isyfEEG1K0mhQ-IdK9f&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfS4QL507NDol1-6Cdh5rUTj5M5hC5s0NrW_j3S6W67Z4K-qavOG4UaAp8YEALw_wcB,0.72,0.76
+10 kΩ,RES 10 OHM 1% 1/8W 0805,2,0.11,https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB,0.22,0.23
+22 Ω,RES 22 OHM 1% 1/8W 0805,2,0.11,https://www.digikey.com/en/products/detail/yageo/RC0805FR-1322RL/13694339?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfZP3-md_kWXjVo2urg73f88iKE2tR9Xip3xlEVRXTp1bbZVnmvqCgaAlWkEALw_wcB,0.22,0.23
+5.1 kΩ,RES 5.1K OHM 5% 1/8W 0805,2,0.1,https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338,0.2,0.21
+22 pF,"22 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)",2,0.12,https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055,0.24,0.25
+1 µF,CAP CER 1UF 6.3V X5R 0402,1,0.08,https://www.digikey.com/en/products/detail/taiyo-yuden/JMK105BJ105KV-F/930583,0.08,0.08
+.1uF,0.1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric),4,0.08,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701,0.32,0.34
+Diode,DIODE STANDARD 100V 150MA SOD123,64,0.11,https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371,7.04,7.46
+Reset Button,SWITCH TACTILE SPST-NO 0.05A 12V,1,0.41,https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861,0.41,0.43
+Adafruit 5413 Magnetic Connector,"four 0.1"" spaced contact pogo pins and a right angl",4,6.95,https://www.adafruit.com/product/5358,27.8,29.47
+,,,,,43.41,45.99
