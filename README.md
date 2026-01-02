@@ -1,9 +1,8 @@
 ## What my project is 
-My project is a 64% keyboard designed to resemble the layout of an Apple Magic keyboard, with a few keys rearranged on either side of the PCB. There will be two magnetic pogo pins on either side, which will allow the keypad with identical pogo pins on it, as well as allowing for the keypad to be placed on either side of the keyboard, therefore making it modular. 
-
+My project is a 64% keyboard designed to resemble the layout of an Apple Magic Keyboard, with a few keys rearranged on either side of the PCB. There will be two magnetic pogo pins on either side, which will allow the keypad with identical pogo pins to connect, as well as allowing the keypad to be placed on either side of the keyboard, therefore making it modular. The case takes inspiration from the Worklouder XYZ Work Board.
 
 ## Why I made the project
-I really like low profile 60%-65% key board but had trouble find ones that fit my needs but learning that I had to put my own spin on it i decide to take on the challenge on making by adding a keypad but making it modular so I could still have the compactness of a 64% with the ablity to have a numpad that dose not make it bulkyness.
+I really like low-profile 60%–65% keyboards but had trouble finding ones that fit my needs. Learning that I had to put my own spin on the idea, I decided to take on the challenge of adding a keypad while keeping it modular, so I could still have the compactness of a 64% keyboard with the ability to have a numpad that does not make it bulky.
 
 ## Images
 
