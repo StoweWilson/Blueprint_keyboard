@@ -31,6 +31,7 @@ I really like low profile 60%-65% key board but had trouble find ones that fit m
 |5.1 kΩ|RES 5.1K OHM 5% 1/8W 0805|2|.10|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338|
 |22 pF|22 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)|2|.12|https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055|
 |1 µF|CAP CER 1UF 6.3V X5R 0402|1|.08|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701|
+|.1uF|0.1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)|4|.08|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701|
 |Diode|DIODE STANDARD 100V 150MA SOD123|64|.11|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371|
 |Reset Button|SWITCH TACTILE SPST-NO 0.05A 12V|1|.41|https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861|
 |Adafruit 5413 Magnetic Connector|four 0.1" spaced contact pogo pins and a right angl|4|6.95|https://www.adafruit.com/product/5358|
