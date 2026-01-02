@@ -1,50 +1,52 @@
-## 🧩 Bill of Materials (BOM)
+## What my project is 
+My project is a 64% keyboard designed to resemble the layout of an Apple Magic keyboard, with a few keys rearranged on either side of the PCB. There will be two magnetic pogo pins on either side, which will allow the keypad with identical pogo pins on it, as well as allowing for the keypad to be placed on either side of the keyboard, therefore making it modular. 
 
-### Main Keyboard PCB
 
-| Reference | Qty | Value / Part | Footprint | Price Total | Link | Datasheet |
-|---------|-----|-------------|-----------|-------|------|-----------|
-|PCB||||$16.30|
-| U1 | 1 | ATmega32U4-A | TQFP-44 10×10 mm |$5.29| https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32U4-AU/1914602 | http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf |
-| Y1 | 1 | 16 MHz Crystal | SMD 3225-4Pin | $.18 | https://www.digikey.com/en/products/detail/eaton-electronics-division/E3X160201Y08/25656418?gclsrc=aw.ds&gad_source=1&gad_campaignid=20509818236&gbraid=0AAAAADrbLlgS94xmC2OHtv7KUQTO5uOa0&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbeNFFstWFqMior3PH_CgvAHFOVgZvViWWTwkzizrjl1ohLOkbDwLqwaAlaHEALw_wcB | — |
-| U2 | 1 | USB6B1 ESD Protector | SOIC-8 |$.69|https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663| http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/ec/b2/54/b2/76/47/90/CD00001361.pdf |
-| J1 | 1 | USB-C Receptacle (USB 2.0) | GCT USB4105 | $.72|  https://www.digikey.com/en/products/detail/amphenol-icc-fci-/10171746-00021LF/24366718?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504594076&gbraid=0AAAAADrbLliKa-isyfEEG1K0mhQ-IdK9f&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfS4QL507NDol1-6Cdh5rUTj5M5hC5s0NrW_j3S6W67Z4K-qavOG4UaAp8YEALw_wcB| https://www.usb.org/sites/default/files/documents/usb_type-c.zip |
-| R1, R4 | 2 | 10 kΩ | 0805 |$.22|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB| — |
-| R2, R3 | 2 | 22 Ω | 0805 |$.22|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1322RL/13694339?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfZP3-md_kWXjVo2urg73f88iKE2tR9Xip3xlEVRXTp1bbZVnmvqCgaAlWkEALw_wcB| — |
-| R5, R6 | 2 | 5.1 kΩ | 0805 |$.20|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338| — |
-| C1, C2 | 2 | 22 pF | 0805 |$.22|https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055| — |
-| C3 | 1 | 1 µF | 0805 |$.70|https://www.mouser.com/ProductDetail/KYOCERA-AVX/KAF21KR71H105JU?qs=9vOqFld9vZWh8YVe5AsImg%3D%3D| — |
-| C4–C7 | 4 | 0.1 µF | 0805 |$.32|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701| — |
-| D1–D64 | 64 | Keyboard Diode | SOD-123 |$2.37|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgypAje0IPavXjgqFPx6XVld&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbevNIc3pz5DCNokEEO_8CvM73vlO7yoCVwzxSf4ZXIzwrOgU6EtQNMaAnAVEALw_wcB| — |
-| SW1–SW64 | 64 | Gateron Low-Profile Hot-Swap Switch | PTH |I can pay|  | — |
-| SW65 | 1 | Reset Button | PTS647 SMD |$.41|https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861| — |
-| J2–J5 | 4 | Adafruit 5413 Magnetic Connector | Custom |$6.50|https://www.adafruit.com/product/5358| — |
-|Total||||$34.96|
+## Why I made the project
+I really like low profile 60%-65% key board but had trouble find ones that fit my needs but learning that I had to put my own spin on it i decide to take on the challenge on making by adding a keypad but making it modular so I could still have the compactness of a 64% with the ablity to have a numpad that dose not make it bulkyness.
 
----
+## Images
 
-### Keypad / Expansion PCB
+### Keyboard
+<img width="858" height="657" alt="keyboard sch" src="https://github.com/user-attachments/assets/cf0c033d-5d6e-421a-b24f-0f9b38cdadd3" />
+<img width="1116" height="400" alt="Screenshot 2026-01-01 at 11 01 54 PM" src="https://github.com/user-attachments/assets/3fee80d2-d682-486d-9bf8-d66ce15dba10" />
+<img width="1122" height="522" alt="keyboard case" src="https://github.com/user-attachments/assets/934ca6f2-2391-4de0-873c-ef5c4d39d016" />
 
-| Reference | Qty | Value / Part | Footprint | Price | Link | Datasheet |
-|---------|-----|-------------|-----------|-------|------|-----------|
-|PCB||||$16.30|
-| U1 | 1 | XIAO RP2040 SMD | Seeed 102010428 |$4.68|https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010428/14672129?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj-cx_AB7IYmSUrHfcZ3IQLC&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbcn_ZEg4zv6ObEisLv_b6IgijRfvJiZc21Bz6JM8BaIT7ggCM4oFr8aAoSUEALw_wcB| — |
-| U2 | 1 | PCF8575DBR I/O Expander | SSOP-24 |$3.58|https://www.digikey.com/en/products/detail/texas-instruments/PCF8575DBR/754551| https://www.ti.com/lit/ds/symlink/pcf8575.pdf |
-| R1–R4 | 4 | 10 kΩ | 0805 |$.44|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB| — |
-| R5, R6 | 2 | 5.1 kΩ | 0805 |$.20|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338| — |
-| D1–D21 | 21 | Keyboard Diode | SOD-123 |$.78|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgypAje0IPavXjgqFPx6XVld&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbevNIc3pz5DCNokEEO_8CvM73vlO7yoCVwzxSf4ZXIzwrOgU6EtQNMaAnAVEALw_wcB| — |
-| SW1–SW21 | 21 | Gateron Low-Profile Hot-Swap Switch | PTH |  |  | — |
-| J1–J4 | 4 | Adafruit 5413 Magnetic Connector | Custom |$6.50|https://www.adafruit.com/product/5358| — |
-|Total||||$32.48|
-|Subtotal||||$67.44|
-|Est shipping||||$26 - $40|
-|Altogether||||$97 - $105|
+### Keypad
+<img width="770" height="703" alt="keypad pcb" src="https://github.com/user-attachments/assets/108db54f-6382-46bc-ab69-63a811b1e695" />
+<img width="1599" height="1004" alt="Screenshot 2026-01-01 at 11 03 55 PM" src="https://github.com/user-attachments/assets/47a25b63-e769-4775-af76-6c5aea5b665b" />
+<img width="743" height="548" alt="keypad case" src="https://github.com/user-attachments/assets/d4a59014-0b51-4fc1-a4f0-910ff1d390bd" />
+
+## BOM
+### Keyboard
+
+|Product name|Product Description|Qty|Price|Product Link|
+|------------|-------------------|---|-----|------------|
+|ATmega32U4-A|AVR AVR® ATmega Microcontroller IC 8-Bit 16MHz 32KB (16K x 16) FLASH 44-TQFP (10x10)|1|5.29|https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32U4-AU/1914602|
+|16 MHz Crystal|CRYSTAL 3225 16MHZ 20PF 10PPM|1|.18|https://www.digikey.com/en/products/detail/eaton-electronics-division/E3X160201Y08/25656418?gclsrc=aw.ds&gad_source=1&gad_campaignid=20509818236&gbraid=0AAAAADrbLlgS94xmC2OHtv7KUQTO5uOa0&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbeNFFstWFqMior3PH_CgvAHFOVgZvViWWTwkzizrjl1ohLOkbDwLqwaAlaHEALw_wcB|
+|USB6B1 ESD Protector|TVS DIODE 5.25VWM 8SOIC|1|.69|https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663|https://www.digikey.com/en/products/detail/amphenol-icc-fci-/10171746-00021LF/24366718?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504594076&gbraid=0AAAAADrbLliKa-isyfEEG1K0mhQ-IdK9f&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfS4QL507NDol1-6Cdh5rUTj5M5hC5s0NrW_j3S6W67Z4K-qavOG4UaAp8YEALw_wcB|
+|USB-C Receptacle (USB 2.0)|USB C RECEPTACLE R/A SMT 16P G/F|1|.72|https://www.digikey.com/en/products/detail/amphenol-icc-fci-/10171746-00021LF/24366718?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504594076&gbraid=0AAAAADrbLliKa-isyfEEG1K0mhQ-IdK9f&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfS4QL507NDol1-6Cdh5rUTj5M5hC5s0NrW_j3S6W67Z4K-qavOG4UaAp8YEALw_wcB|
+|10 kΩ|RES 10 OHM 1% 1/8W 0805|2|.11|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB|
+|22 Ω|RES 22 OHM 1% 1/8W 0805|2|.11|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1322RL/13694339?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbfZP3-md_kWXjVo2urg73f88iKE2tR9Xip3xlEVRXTp1bbZVnmvqCgaAlWkEALw_wcB|
+|5.1 kΩ|RES 5.1K OHM 5% 1/8W 0805|2|.10|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338|
+|22 pF|22 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)|2|.12|https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055|
+|1 µF|CAP CER 1UF 6.3V X5R 0402|1|.08|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701|
+|Diode|DIODE STANDARD 100V 150MA SOD123|64|.11|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371|
+|Reset Button|SWITCH TACTILE SPST-NO 0.05A 12V|1|.41|https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861|
+|Adafruit 5413 Magnetic Connector|four 0.1" spaced contact pogo pins and a right angl|4|6.95|https://www.adafruit.com/product/5358|
+
+### Keypad
+|Product name|Product Description|Qty|Price|Product Link|
+|------------|-------------------|---|-----|------------|
+|XIAO RP2040 SMD|XIAO RP2040 SMD|1|4.68|https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010428/14672129?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj-cx_AB7IYmSUrHfcZ3IQLC&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbcn_ZEg4zv6ObEisLv_b6IgijRfvJiZc21Bz6JM8BaIT7ggCM4oFr8aAoSUEALw_wcB|
+|PCF8575DBR I/O Expander|IC XPNDR 400KHZ I2C SMBUS 24SSOP|1|3.58|https://www.digikey.com/en/products/detail/texas-instruments/PCF8575DBR/754551|
+|10 kΩ|RES 10 OHM 1% 1/8W 0805|4|.11|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB|
+|5.1 kΩ|RES 5.1K OHM 5% 1/8W 0805|2|.10|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338|
+|Diode|DIODE STANDARD 100V 150MA SOD123|21|.11|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371|
+|Adafruit 5413 Magnetic Connector|four 0.1" spaced contact pogo pins and a right angl|4|6.95|https://www.adafruit.com/product/5358|
+
 
 ### Notes
-- All passives are **0805** for easier assembly
-- Diodes are **SOD-123**
-- Switches are **low-profile hot-swap**
-- Shipping is not included in any of the prices
-- PCB with shippiing is $59.04 Qty of 5 each cant change
-- 
----
+- Shipping is not included in any of the prices.
+- PCB with shippiing is $59.04 Qty of 5 each can't change.
+- I will pay for the keyboard switches with my own money.
