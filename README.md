@@ -16,6 +16,10 @@ I really like low-profile 60%–65% keyboards but had trouble finding ones that 
 <img width="1599" height="1004" alt="Screenshot 2026-01-01 at 11 03 55 PM" src="https://github.com/user-attachments/assets/47a25b63-e769-4775-af76-6c5aea5b665b" />
 <img width="743" height="548" alt="keypad case" src="https://github.com/user-attachments/assets/d4a59014-0b51-4fc1-a4f0-910ff1d390bd" />
 
+### Render
+<img width="1565" height="914" alt="Stowe-Keyboard- Iso (1)" src="https://github.com/user-attachments/assets/92ee0b08-1e0f-4050-a804-f3c5eb24f627" />
+<img width="2351" height="731" alt="Stowe-Keyboard- Top (1)" src="https://github.com/user-attachments/assets/200b9572-b559-4c89-ac8a-fbed66f7404e" />
+
 ## BOM
 ### Keyboard
 
@@ -33,7 +37,7 @@ I really like low-profile 60%–65% keyboards but had trouble finding ones that 
 |.1uF|0.1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)|4|.08|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701|
 |Diode|DIODE STANDARD 100V 150MA SOD123|64|.11|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371|
 |Reset Button|SWITCH TACTILE SPST-NO 0.05A 12V|1|.41|https://www.digikey.ca/en/products/detail/c-k/Y97KT23B2NAFP/9649861|
-|Adafruit 5413 Magnetic Connector|four 0.1" spaced contact pogo pins and a right angl|4|6.95|https://www.adafruit.com/product/5358|
+|Adafruit 5413 Magnetic Connector|four 0.1" spaced contact pogo pins and a right angl|4|2.13|https://www.aliexpress.us/p/shoppingcart/index.html?spm=a2g0o.detail.0.0.2397nvtbnvtbTw|
 
 ### Keypad
 |Product name|Product Description|Qty|Price|Product Link|
@@ -43,7 +47,7 @@ I really like low-profile 60%–65% keyboards but had trouble finding ones that 
 |10 kΩ|RES 10 OHM 1% 1/8W 0805|4|.11|https://www.digikey.com/en/products/detail/yageo/RC0805FR-1310RL/13694343?gclsrc=aw.ds&gad_source=1&gad_campaignid=17335707486&gbraid=0AAAAADrbLlj7rEgZ30rWPo_IyYLBKIC1T&gclid=Cj0KCQiAx8PKBhD1ARIsAKsmGbe2BlRAZ_fbKZ1YBvA79CHduwhXdcr3Sd3RQTWvr3wtoWWFxpEhsnEaAhrXEALw_wcB|
 |5.1 kΩ|RES 5.1K OHM 5% 1/8W 0805|2|.10|https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338|
 |Diode|DIODE STANDARD 100V 150MA SOD123|21|.11|https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371|
-|Adafruit 5413 Magnetic Connector|four 0.1" spaced contact pogo pins and a right angl|4|6.95|https://www.adafruit.com/product/5358|
+|Adafruit 5413 Magnetic Connector|four 0.1" spaced contact pogo pins and a right angl|4|2.13|https://www.aliexpress.us/p/shoppingcart/index.html?spm=a2g0o.detail.0.0.2397nvtbnvtbTw|
 
 
 ### Notes
