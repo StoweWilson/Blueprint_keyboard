@@ -1,62 +1,85 @@
-import board
-import busio
+#include <Wire.h>
+#include <Keyboard.h>
 
-from kmk.kmk_keyboard import KMKKeyboard
-from kmk.matrix import DiodeOrientation
-from kmk.keys import KC
-from kmk.modules.layers import Layers
+#define PCF_ADDR 0x20
 
-from kmk.extensions.ioexpander import IOExpander
-from kmk.extensions.ioexpander.mcp230xx import MCP23017
+#define ROWS 5
+#define COLS 5
 
+const uint8_t rowBits[ROWS] = {0, 1, 2, 3, 4};
+const uint8_t colBits[COLS] = {5, 6, 7, 8, 9};
 
-keyboard = KMKKeyboard()
-keyboard.modules.append(Layers())
+const uint8_t keymap[5][5] = {
+  {KEY_F13,      'o',        't',        's',        'x'       }, 
+  {KEY_F14,      KEY_NUM_LOCK, '/',      '*',        '-'       },  
+  {KEY_F15,      '7',        '8',        '9',        '+'       },  
+  {KEY_F16,      '4',        '5',        '6',        KEY_RETURN},  
+  {KEY_F17,      '1',        '2',        '3',        '.'       }   
+};
 
-keyboard.diode_orientation = DiodeOrientation.COLUMNS
+bool stable[ROWS][COLS];
+bool lastStable[ROWS][COLS];
+uint32_t lastChange[ROWS][COLS];
 
-keyboard.col_pins = (
-    board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5, board.GP6,
-    board.GP7, board.GP8, board.GP9, board.GP10, board.GP11, board.GP12
-)
+void pcfWrite(uint16_t v) {
+  Wire.beginTransmission(PCF_ADDR);
+  Wire.write(v & 0xFF);
+  Wire.write(v >> 8);
+  Wire.endTransmission();
+}
 
-keyboard.row_pins = (board.GP13, board.GP14, board.GP15, board.GP16)
+uint16_t pcfRead() {
+  Wire.requestFrom(PCF_ADDR, 2);
+  uint16_t v = Wire.read();
+  v |= Wire.read() << 8;
+  return v;
+}
 
-i2c = busio.I2C(board.SCL, board.SDA)
+void driveRow(int r) {
+  uint16_t v = 0xFFFF;
+  v &= ~(1 << rowBits[r]);
+  pcfWrite(v);
+}
 
-mcp = MCP23017(i2c=i2c, i2c_addr=0x20)
-exp = IOExpander(mcp)
+bool readKey(int r, int c) {
+  return !(pcfRead() & (1 << colBits[c]));
+}
 
-exp.col_pins = (0, 1, 2, 3, 4)
-exp.row_pins = (8, 9, 10, 11, 12)
+void setup() {
+  Wire.begin();
+  Wire.setClock(400000);
+  pcfWrite(0xFFFF);
+  Keyboard.begin();
+  uint32_t t = millis();
+  for (int r = 0; r < ROWS; r++)
+    for (int c = 0; c < COLS; c++)
+      stable[r][c] = lastStable[r][c] = false, lastChange[r][c] = t;
+}
 
-keyboard.extensions.append(exp)
+void loop() {
+  static uint32_t lastScan = 0;
+  uint32_t now = millis();
+  if (now - lastScan < 2) return;
+  lastScan = now;
 
-keyboard.keymap = [
-    [
-        KC.ESC,  KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.MINS, KC.EQL,
-        KC.TAB,  KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, KC.RBRC,
-        KC.CAPS, KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT, KC.BSLS,
-        KC.LSFT, KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, KC.MO(1), KC.ENT,
+  for (int r = 0; r < ROWS; r++) {
+    driveRow(r);
+    delayMicroseconds(250);
 
-        KC.NLCK, KC.PSLS, KC.PAST, KC.PMNS, KC.PGUP,
-        KC.P7,   KC.P8,   KC.P9,   KC.PPLS, KC.HOME,
-        KC.P4,   KC.P5,   KC.P6,   KC.PPLS, KC.END,
-        KC.P1,   KC.P2,   KC.P3,   KC.PENT, KC.PGDN,
-        KC.P0,   KC.PDOT, KC.PCMM, KC.MUTE, KC.DEL,
-    ],
-    [
-        KC.GRV,  KC.F1,   KC.F2,   KC.F3,   KC.F4,   KC.F5,   KC.F6,   KC.F7,   KC.F8,   KC.F9,   KC.F10,  KC.F11,  KC.F12,
-        KC.TRNS, KC.EXLM, KC.AT,   KC.HASH, KC.DLR,  KC.PERC, KC.CIRC, KC.AMPR, KC.ASTR, KC.LPRN, KC.RPRN, KC.UNDS, KC.PLUS,
-        KC.TRNS, KC.LEFT, KC.DOWN, KC.UP,   KC.RGHT, KC.PGUP, KC.HOME, KC.END,  KC.INS,  KC.DEL,  KC.TRNS, KC.TRNS, KC.TRNS,
-        KC.TRNS, KC.MPRV, KC.MPLY, KC.MNXT, KC.VOLD, KC.VOLU, KC.MUTE, KC.BSPC, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS,
-
-        KC.MPLY, KC.MPRV, KC.MNXT, KC.VOLD, KC.VOLU,
-        KC.TRNS, KC.TRNS, KC.TRNS, KC.VOLU, KC.TRNS,
-        KC.TRNS, KC.TRNS, KC.TRNS, KC.VOLU, KC.TRNS,
-        KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS,
-        KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS,
-    ],
-]
-
-keyboard.go()
+    for (int c = 0; c < COLS; c++) {
+      bool raw = readKey(r, c);
+      if (raw != stable[r][c]) {
+        stable[r][c] = raw;
+        lastChange[r][c] = now;
+      }
+      if (now - lastChange[r][c] > 10) {
+        if (stable[r][c] != lastStable[r][c]) {
+          lastStable[r][c] = stable[r][c];
+          if (stable[r][c]) Keyboard.press(keymap[r][c]);
+          else Keyboard.release(keymap[r][c]);
+        }
+      }
+    }
+    pcfWrite(0xFFFF);
+  }
+}
