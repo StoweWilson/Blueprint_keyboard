@@ -9,16 +9,16 @@ I really like low-profile 60%–65% keyboards but had trouble finding ones that 
 ### Keyboard
 <img width="858" height="657" alt="keyboard sch" src="https://github.com/user-attachments/assets/cf0c033d-5d6e-421a-b24f-0f9b38cdadd3" />
 <img width="1116" height="400" alt="Screenshot 2026-01-01 at 11 01 54 PM" src="https://github.com/user-attachments/assets/3fee80d2-d682-486d-9bf8-d66ce15dba10" />
-<img width="1122" height="522" alt="keyboard case" src="https://github.com/user-attachments/assets/934ca6f2-2391-4de0-873c-ef5c4d39d016" />
+
 
 ### Keypad
 <img width="770" height="703" alt="keypad pcb" src="https://github.com/user-attachments/assets/108db54f-6382-46bc-ab69-63a811b1e695" />
 <img width="1599" height="1004" alt="Screenshot 2026-01-01 at 11 03 55 PM" src="https://github.com/user-attachments/assets/47a25b63-e769-4775-af76-6c5aea5b665b" />
-<img width="743" height="548" alt="keypad case" src="https://github.com/user-attachments/assets/d4a59014-0b51-4fc1-a4f0-910ff1d390bd" />
+
 
 ### Render
-<img width="1565" height="914" alt="Stowe-Keyboard- Iso (1)" src="https://github.com/user-attachments/assets/92ee0b08-1e0f-4050-a804-f3c5eb24f627" />
-<img width="2351" height="731" alt="Stowe-Keyboard- Top (1)" src="https://github.com/user-attachments/assets/200b9572-b559-4c89-ac8a-fbed66f7404e" />
+<img width="1671" height="1021" alt="Screenshot 2026-01-16 141933" src="https://github.com/user-attachments/assets/394bec12-2a40-4efb-bb15-da2f0abc8f7e" />
+<img width="425" height="1186" alt="Screenshot 2026-01-16 141941" src="https://github.com/user-attachments/assets/ff86fc57-0d48-4d75-b83d-a7f4128c1a91" />
 
 ## BOM
 ### Keyboard
