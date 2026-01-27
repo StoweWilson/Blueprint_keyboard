@@ -9,11 +9,13 @@ I really like low-profile 60%–65% keyboards but had trouble finding ones that 
 ### Keyboard
 <img width="858" height="657" alt="keyboard sch" src="https://github.com/user-attachments/assets/cf0c033d-5d6e-421a-b24f-0f9b38cdadd3" />
 <img width="1116" height="400" alt="Screenshot 2026-01-01 at 11 01 54 PM" src="https://github.com/user-attachments/assets/3fee80d2-d682-486d-9bf8-d66ce15dba10" />
+<img width="860" height="343" alt="Screenshot 2026-01-26 at 7 12 31 PM" src="https://github.com/user-attachments/assets/0c6552cf-1e2a-4cdd-8a12-8fb93f3136c1" />
 
 
 ### Keypad
 <img width="770" height="703" alt="keypad pcb" src="https://github.com/user-attachments/assets/108db54f-6382-46bc-ab69-63a811b1e695" />
 <img width="1599" height="1004" alt="Screenshot 2026-01-01 at 11 03 55 PM" src="https://github.com/user-attachments/assets/47a25b63-e769-4775-af76-6c5aea5b665b" />
+<img width="651" height="604" alt="Screenshot 2026-01-26 at 7 13 42 PM" src="https://github.com/user-attachments/assets/dd886fcb-813e-4b56-9ddf-b36a81459ce8" />
 
 
 ### Render
